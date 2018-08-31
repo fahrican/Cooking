@@ -2,9 +2,11 @@ package administration;
 
 import helper.IBoilable;
 import helper.IFryable;
+import helper.UnitComparator;
 import model.Condiment;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public abstract class Recipe {
@@ -50,9 +52,12 @@ public abstract class Recipe {
 
     public void listAllCondiments() {
 
+        Collections.sort(this.condiments, new UnitComparator());
+
         for (Condiment condiment : this.condiments) {
 
             System.out.println(condiment);
         }
     }
+
 }
