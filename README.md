@@ -11,4 +11,4 @@ Die Methode getEnergyLevel summiert von allen Zutaten die Energie und gibt den W
 Überlegen sie welche Klasse(n) abstrakt definiert werden können.
 Eine Erweiterung wäre, dass sie die Ausgabe der Zutaten geordnet nach der Einheit der Zutaten (also Liter, dag, Teelöffel...) ausgeben.
 
-<img src="uml_diagram.png" />
+<img src="images/uml_diagram.png" />
