@@ -10,3 +10,5 @@ Diese liefert wahr zurück sobald eine der Zutaten ein Interface implementiert.
 Die Methode getEnergyLevel summiert von allen Zutaten die Energie und gibt den Wert aus. 
 Überlegen sie welche Klasse(n) abstrakt definiert werden können.
 Eine Erweiterung wäre, dass sie die Ausgabe der Zutaten geordnet nach der Einheit der Zutaten (also Liter, dag, Teelöffel...) ausgeben.
+
+<img src="uml_diagram.png" />
